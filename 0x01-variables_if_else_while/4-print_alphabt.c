@@ -15,10 +15,11 @@ int main(void)
 	e = 'e';
 	q = 'q';
 
-	while (lowc = 'a'; lowc <= 'z'; low++)
+	for (lowc = 'a'; lowc <= 'z'; lowc++)
 	{
-		if (lowc != e && lowc != q)
-			putchar(low);
+		if (lowc != 'e', lowc != 'q')
+
+			putchar(lowc);
 	}
 	putchar('\n');
 
