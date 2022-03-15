@@ -19,6 +19,8 @@ int main(void)
 			putchar(num);
 		}
 		putchar(lowc);
+	}
+
 	putchar('\n');
 
 	return (0);
