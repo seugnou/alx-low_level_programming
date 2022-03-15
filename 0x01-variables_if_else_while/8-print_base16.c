@@ -17,6 +17,7 @@ int main(void)
 			putchar(num);
 
 	for (lowc = 'a'; lowc <= 'f'; lowc++)
+
 		putchar(lowc);
 
 	putchar('\n');
