@@ -12,7 +12,7 @@ int main(void)
 	char lowc;
 
 	for (lowc = 0; lowc <= 16; lowc++)
-		putchar(lowc);
+		int putchar(lowc);
 	putchar('\n');
 
 	return (0);
