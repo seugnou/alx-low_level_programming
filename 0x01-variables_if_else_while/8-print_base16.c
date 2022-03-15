@@ -12,11 +12,13 @@ int main(void)
 	char lowc;
 	int num;
 
-	for (num = 0, lowc = 'a'; num <= 9 && lowc <= 'f'; num++, lowc++)
-		putchar(num);
-
-		putchar(lowc);	
-
+	for (lowc = 'a'; lowc <= 'f'; lowc++)
+	{
+		for (num = 0; num <= 10; num++)
+		{
+			putchar(num);
+		}
+		putchar(lowc);
 	putchar('\n');
 
 	return (0);
