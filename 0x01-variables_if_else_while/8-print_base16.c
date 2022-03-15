@@ -12,14 +12,12 @@ int main(void)
 	char lowc;
 	int num;
 
-	for (lowc = 'a'; lowc <= 'f'; lowc++)
-	{
-		for (num = 0; num <= 10; num++)
-		{
+	for (num = 0; num <= 10; num++)
+
 			putchar(num);
-		}
+
+	for (lowc = 'a'; lowc <= 'f'; lowc++)
 		putchar(lowc);
-	}
 
 	putchar('\n');
 
