@@ -10,9 +10,13 @@
 int main(void)
 {
 	char lowc;
+	int num;
 
-	for (lowc = 0; lowc <= 16; lowc++)
-		int putchar(lowc);
+	for (num = 0; num <= 9; lowc++ && lowc = 'a'; lowc <= 'f'; lowc++)
+		putchar(num);
+
+		putchar(lowc);	
+
 	putchar('\n');
 
 	return (0);
