@@ -1,4 +1,7 @@
 #define MAIN_H
 
 /*_putchar.c */
-int _putchar(char[8]);
+struct
+{
+	char *text;
+}
