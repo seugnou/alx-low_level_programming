@@ -11,7 +11,7 @@ int main(void)
 	char text[9] = "_putchar";
 	int anyNumber = 0;
 
-	for (anyNumber = 0; anyNumber < 9; ++anyNumber)
+	for (anyNumber = 0; anyNumber < 8; ++anyNumber)
 	{
 
 		_putchar(text[anyNumber]);
