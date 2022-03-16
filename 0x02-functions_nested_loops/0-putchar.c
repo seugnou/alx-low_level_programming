@@ -8,10 +8,15 @@
 
 int main(void)
 {
-	int i = '_putchar';
-	char text = i;
+	char text[] = "_putchar";
+	int anyNumber;
+
+	for (anyNumber = 0; anyNumber < 9; ++anyNumber)
+	{
+		text[10] = anyNumber;
 
 		_putchar(text);
+	}
 
 	_putchar('\n');
 
