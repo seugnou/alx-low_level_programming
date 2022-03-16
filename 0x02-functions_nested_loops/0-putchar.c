@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	const char *text = "_putchar";
+	const char * text = "_putchar";
 
-		_putchar(*text);
+		_putchar(text);
 
 	_putchar('\n');
 
