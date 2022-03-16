@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char *text = "_putchar";
+	char *text = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 
 		_putchar(text);
 
