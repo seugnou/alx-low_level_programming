@@ -21,8 +21,11 @@ int main(void)
 		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
 
 		if ((fibonacci[i] % 2) == 0 && fibonacci[i] < 100000000)
+
+	 		printf("%ld\n", fibonacci[i]);
+		else
+			print("%ld, ", fibonacci[i]);
 	}
-	 printf("%ld\n", fibonacci[i]);
 
 	 return (0);
 }
