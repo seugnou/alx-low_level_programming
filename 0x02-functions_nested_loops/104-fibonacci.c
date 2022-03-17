@@ -12,7 +12,7 @@
 int main(void)
 {
 	int i;
-	long int fibonacci[98];
+	unsigned long fibonacci[98];
 
 	fibonacci[0] = 1;
 	fibonacci[1] = 2;
