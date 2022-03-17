@@ -24,7 +24,7 @@ int main(void)
 				sum += fibonacci[i];
 	
 	}
-	 printf("%ld\n", fibonnacci[i]);
+	 printf("%ld\n", fibonacci[i]);
 
 	 return (0);
 }
