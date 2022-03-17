@@ -20,7 +20,7 @@ int main(void)
 	{
 		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
 
-		if (i ==97)
+		if (i ==98)
 
 	 		printf("%ld\n", fibonacci[i]);
 		else
