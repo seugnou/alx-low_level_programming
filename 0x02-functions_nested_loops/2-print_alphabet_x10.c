@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 
 	for (lowcInc = 0; lowcInc < 10; ++lowcInc)
 	{
-		for (lowc = 'a'; lowc <= 'z'; ++lowc)
+		for (lowcLine1 = 'a'; lowcLine1 <= 'z'; ++lowcLine1)
 			_putchar(lowc);
 		_putchar('\n');
 
