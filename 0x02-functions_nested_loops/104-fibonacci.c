@@ -17,11 +17,11 @@ int main(void)
 	n1 = 1;
 	n2 = 2;
 
-	printf("%d, %d", n1, n2);
+	printf("%ld, %ld", n1, n2);
 	for (i = 2; i <= 96 ; i++)
 	{
 		sum = n2 + n1;
-		printf("%d, ", sum);
+		printf("%ld, ", sum);
 		n2 = sum;
 		n1 = n2;
 	}
