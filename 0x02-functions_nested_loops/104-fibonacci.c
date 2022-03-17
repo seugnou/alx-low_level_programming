@@ -18,8 +18,11 @@ int main(void)
 	for (i = 2; i < 98; ++i)
 	{
 		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-		if ((fibonacci[i] % 2 == 0 && fibonacci[i] < 500000000000)
-					sum += fibonacci[i];
+
+		if ((fibonacci[i] % 2 == 0 && fibonacci[i] < 100000000)
+		
+				sum += fibonacci[i];
+	
 	}
 	 printf("%ld\n", sum);
 
