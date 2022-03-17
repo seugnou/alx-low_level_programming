@@ -2,7 +2,7 @@
 
 /**
  * main - check the code
- *
+ * Description: this code prints alphabet in lowercase followed by a new line
  * Return: Always 0.
 */
 
