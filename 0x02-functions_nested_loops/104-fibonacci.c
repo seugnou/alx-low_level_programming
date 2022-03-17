@@ -19,7 +19,7 @@ int main(void)
 	{
 		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
 
-		if ((fibonacci[i] % 2 == 0 && fibonacci[i] < 100000000)
+		if ((fibonacci[i] % 2) == 0 && fibonacci[i] < 100000000)
 		
 				sum += fibonacci[i];
 	
