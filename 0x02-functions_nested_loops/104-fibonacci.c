@@ -12,21 +12,19 @@
 int main(void)
 {
 	int i;
-	unsigned long fibonacci[98];
+	long int n1, n2, sum;
 
-	fibonacci[0] = 1;
-	fibonacci[1] = 2;
-	printf("%ld, %ld, ", fibonacci[0], fibonacci[1]);
+	n1 = 1;
+	n2 = 2;
 
-	for (i = 2; i <= 97 ; ++i)
+	printf("%d, %d", n1, n2);
+	for (i = 2; i <= 96 ; i++)
 	{
-		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-
-		if (i == 97)
-			printf("%ld\n", fibonacci[i]);
-		else
-			printf("%ld, ", fibonacci[i]);
+		sum = n2 + n1;
+		printf("%d, ", sum);
+		n2 = sum;
+		n1 = n2;
 	}
-
+	printf("\b");
 	return (0);
 }
