@@ -22,8 +22,8 @@ int main(void)
 	{
 		sum = n2 + n1;
 		printf("%ld, ", sum);
-		n2 = sum;
 		n1 = n2;
+		n2 = sum;
 	}
 	printf("\b");
 	return (0);
