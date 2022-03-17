@@ -3,6 +3,8 @@
 /**
  * main - Entry point
  *
+ * Documentation: list 98 fibonacci num
+ *
  * Return: Aways 0 (Success)
  *
 */
@@ -20,7 +22,7 @@ int main(void)
 	{
 		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
 
-		if (i == 98)
+		if (i == 97)
 
 	 		printf("%ld\n", fibonacci[i]);
 		else
