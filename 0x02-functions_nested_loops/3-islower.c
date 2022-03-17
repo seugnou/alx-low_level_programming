@@ -11,7 +11,10 @@
 
 int _islower(int c)
 {
-	int r;
+	int lower = 0;
+	char r;
+
+	for (r = 'a'; r <= 'z'; r++)
 
 	r = _islower('H');
 
@@ -26,4 +29,11 @@ int _islower(int c)
 	_putchar('\n');
 
 	return (0);
+	{
+		if (r == c)
+			lower = 1;
+	}
+
+	return (lower);
+
 }
