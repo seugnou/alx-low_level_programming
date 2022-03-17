@@ -1,6 +1,6 @@
-#include "0-main.c"
+#include "main.h"
 
-/** 
+/**
  * _isupper - check the function that checks for uppercase character
  * Documentation: An input character
  *
