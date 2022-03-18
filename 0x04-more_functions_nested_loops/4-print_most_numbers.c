@@ -3,9 +3,7 @@
 
 /**
  * print_most_numbers - It's a function that prints the numbers, from 0 to 9
- * Do not print 2 and 4
- * followed by new line
- * Return: Always 0
+ * Return: Void
  */
 
 void print_most_numbers(void)
