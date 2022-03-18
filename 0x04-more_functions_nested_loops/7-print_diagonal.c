@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diadonal - print diagonal line dependent on the integer n
+ * print_diagonal - print diagonal line dependent on the integer n
  * @n : The number of lines using '\' characters to use
  * Return : Void
  */
