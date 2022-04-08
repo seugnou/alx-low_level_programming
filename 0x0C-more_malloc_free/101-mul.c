@@ -3,32 +3,26 @@
 #include <stdlib.h>
 
 /**
- * main - multiplies two positive numbers
- * @argc: n arguments
- * @argv: args
- * Return: int
+ * main - Check the code
+ * @argc: number of arguments
+ * @argv: arguments
+ * Return: Nothing
  */
 int main(int argc, char **argv)
 {
-	
-	unsigned long mul;
-	int num1, num2;
+	int num1, num2, mull;
 
 	if (argc != 3)
-	{ printf("Error\n");
-	exit(98);
-	}
-	for (num1 = 1; num1 < argc; num1++)
 	{
-		for (num2 = 0; argv[num1][num2] != '\0'; num2++)
-		{
-			if (argv[num1][num2] > 57 || argv[num1][num2] < 48)
-			{  printf("Error\n");
-			exit(98); }
-		}
-
+		printf("Error\n");
+		exit(98);
 	}
-	mul = atol(argv[1]) *  atol(argv[2]);
-	printf("%lu\n", mul);
-return (0);
+	else
+	{
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
+		result = num1 * num2;
+		printf("%d\n", mull);
+		return (0);
+	}
 }
