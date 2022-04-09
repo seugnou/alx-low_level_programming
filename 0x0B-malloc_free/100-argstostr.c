@@ -39,4 +39,3 @@ char *argstostr(int ac, char **av)
 	cat[size] = '\0';
 	return (cat);
 }
-© 2022 GitHub, Inc.
